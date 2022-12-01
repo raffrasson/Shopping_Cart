@@ -1,0 +1,86 @@
+body {
+  background-color:rgb(224, 224, 224);
+  flex-flow: column;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.items {
+  display: flex;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 400px;;
+  margin: 5px;
+  width: 200px;
+  box-shadow: 0px 2px 4px 0px rgb(182, 182, 182);
+}
+
+.item .item__sku {
+  display: none;
+}
+
+.item .item__title {
+  flex-grow: 1;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Roboto';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-flow: column nowrap;
+  max-width: 200px;;
+}
+
+.item .item__image {
+  width: 100%;
+}
+
+.item .item__price {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.item .item__add {
+  background-color: rgb(77, 136, 170);
+  color: rgb(255, 255, 255);
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.item .item__add:hover {
+  background-color: rgb(104, 188, 236);
+}
+
+.cart {
+  display: flex;
+  flex-basis: 30%;
+  flex-flow: column wrap;
+}
+
+.cart .cart__title {
+  flex-basis: 1;
+  font-size: 16pt;
+  text-align: center;
+}
