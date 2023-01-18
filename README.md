@@ -23,7 +23,7 @@ npm install
 ``` 
 ## Executando a aplicação
 
-* Acesse a página via *GitHub Pages* clicando [aqui,](https://raffrasson.github.io/Shopping_Cart/)
+* Acesse a página via *GitHub Pages* clicando [aqui.](https://raffrasson.github.io/Shopping_Cart/)
 
 
 ## Notas e referências:
